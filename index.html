@@ -7,91 +7,99 @@
     <title>OnlineStore</title>
 </head>
 <body>
-
-    <header>
-        <h1>ONLINE<strong>STORE</strong></h1>
-        <h4>good products, cheep prices</h4>
-        <p>Customer Servive 0845 0123 000</p>
-        <p>Our delivery rate is 64 on ALL ORDERS</p>
-        <h5>Shopping Basket</h5>
-        <p>Item(s): 2 $250</p>
-
-    </header>
+    <div id="home">
+        <header>
+            <h1>ONLINE<strong>STORE</strong></h1>
+            <h4>good products, cheep prices</h4>
+            <p>Customer Servive 0845 0123 000</p>
+            <p>Our delivery rate is 64 on ALL ORDERS</p>
+            <h5>Shopping Basket</h5>
+            <p>Item(s): 2 $250</p>
+        </header>
+    </div>
     <section>
         <nav>
             <ul>
                 <li>
-                    Home
+                    <a href="#home">Home</a> 
                 </li>
                 <li>
-                    Products
+                    <a href="#product">Products</a>
                 </li>
                 <li>
-                    Features
+                    <a href="#features">Features</a>
                 </li>
                 <li>
-                    Store Locator
+                    <a href="#store-locator">Store Locator</a>
                 </li>
                 <li>
-                    About Us
+                    <a href="#foot">About Us</a>
                 </li>
                 <li>
-                    Product Guidelines
+                    <a href="#product-guideline">Product Guidelines</a>
                 </li>
                 <li>
-                    Contact
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">Sign up</a>
+                </li>
+                <li>
+                    <a href="">My account</a>
                 </li>
             </ul>
         </nav>
     </section>
     <nav>
-        <h3>Product Categories</h3>
+        <h3 id="product-categories">Product Categories</h3>
             <ul>
                 <li>
-                    Bathroom
+                    <a href="">Bathroom</a>
                 </li>
                 <li>
-                    Bedroom
+                    <a href="">Bedroom</a>
                 </li>
                 <li>
-                    Cooking
+                    <a href="">Cooking</a>
                 </li>
                 <li>
-                    Decoration
+                    <a href="">Decoration</a>
                 </li>
                 <li>
-                    Dining
+                    <a href="">Dining</a>
                 </li>
                 <li>
-                    Eating
+                    <a href="">Eating</a>
                 </li>
                 <li>
-                    Hallway
+                    <a href="">Hallway</a>
                 </li>
             </ul>
     </nav>
-    <section>
+    <section id="product">
         <figure>
             <img src="images/portada.jpg" alt="Imagen de Portada"/ width="500">
         </figure>
         <p>White sofa Collection</p>
     </section>
-    <section>
+    <section id="product-guideline">
         <h5>Product Guidelines</h5>
         <figure>
             <img src="images/guidlines.jpg" alt="Imagen de Guidline" width="50">
         </figure>
         <p>Please consider going over our <strong><a href="">product guidelines</a></strong> before you purchase any item from our store.</p>
     </section>
-    <section>
+    <section id="store-locator">
         <h5>Store Locator</h5>
         <figure>
             <img src="images/mapa.png" alt="Imagen del Mapa" width="50">
         </figure>
-        <p>Use our Store Locator to find a store near you. <br> <strong><a href="">click here</a></strong>
+        <p>Use our Store Locator to find a store near you. <br> <strong><a href="https://www.google.com.mx/maps/">click here</a></strong>
          </p>
     </section>
-    <section>
+    <section id="features">
         <h4>Featured Collections</h4>
             <figure>
                 <img src="images/mueble1.jpg" alt="Imagen Mueble 1" width="150"/>
@@ -131,9 +139,13 @@
             <p>Sonegate Collection - Powell Furniture ($825$)</p>
         </article>
     </section>
-    <section>
+    <section class="newsletter" id="contact">
         <h4>Newsletter</h4>
         <p>Sign up for our weekly newsletter and stay up-to-date with the latest offers, and newest products.</p>
+        <form action="/newsletter/">
+            <input type="text" placeholder="E-mail Adress">
+            <button>Suscribe</button>
+        </form>
     </section>
     <section>
         <h4>Best Sellers</h4>
@@ -156,7 +168,7 @@
             <p>Mueble</p>
         </article>
     </section>
-    <footer>
+    <footer id="foot">
         footer
     </footer>
 </body>
