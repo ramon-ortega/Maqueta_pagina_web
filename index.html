@@ -68,7 +68,7 @@
     <section class="screen">
         <div class="left-screen">
             <section>
-                <nav class="vertical-menu"></nav>
+                <nav class="vertical-menu">
                 <h3 id="product-categories">Product Categories</h3>
                     <ul>
                         <li>
@@ -109,7 +109,7 @@
         <div class="middle-screen">
             <section id="product">
                 <figure class="principal-image-container">
-                    <img class="principal-image" src="images/portada.jpg" alt="Imagen de Portada"/ width="500">
+                    <img class="principal-image" src="images/portada.jpg" alt="Imagen de Portada" width="500" />
                 </figure>
                 <p class="description-principal-image">White sofa Collection</p>
             </section>
@@ -166,40 +166,45 @@
         </div>
         <div class="right-screen">
             <section id="product-guideline">
-                <h5>Product Guidelines</h5>
-                <figure>
-                    <img src="images/guidlines.jpg" alt="Imagen de Guidline" width="50">
-                </figure>
-                <p>Please consider going over our <strong><a href="">product guidelines</a></strong> before you purchase any item from our store.</p>
+                <div class="guideline-head"> 
+                    <figure class="guideline-image">
+                        <img src="images/guidlines.jpg" alt="Imagen de Guidline" width="50">
+                    </figure>
+                    <h5 class="guideline-tittle">Product Guidelines</h5>
+                </div>
+                <p class="guideline-text">Please consider going over our <a href="">product guidelines</a> before you purchase any item from our store.</p>
             </section>
-            <section id="store-locator">
-                <h5>Store Locator</h5>
-                <figure>
-                    <img src="images/mapa.png" alt="Imagen del Mapa" width="50">
-                </figure>
-                <p>Use our Store Locator to find a store near you. <br> <strong><a href="https://www.google.com.mx/maps/">click here</a></strong>
-                 </p>
+            <section id="store-locator" class="locator">
+                <div class="locator-head">
+                    <figure class="locator-image">
+                        <img src="images/mapa.png" alt="Imagen del Mapa" width="50">
+                    </figure>
+                    <h5 class="locator-tittle">Store Locator</h5>
+                </div>
+                <p class="locator-text">Use our Store Locator to find a store near you. <br><a href="https://www.google.com.mx/maps/">click here</a></p>
             </section>
             <section class="best-sellers">
-                <h4>Best Sellers</h4>
-                <article>
-                    <figure>
-                        <img src="images/mueble8.jpg" alt="Imagen Mueble 8" width="150" />
-                    </figure>
-                    <p>Lampara</p>
-                </article>
-                <article>
-                    <figure>
-                        <img src="images/mueble9.jpg" alt="Imagen Mueble 9" width="150" />
-                    </figure>
-                    <p>Office Desk</p>
-                </article>
-                <article>
-                    <figure>
-                        <img src="images/mueble11.jpg" alt="Imagen Mueble 10" width="150"/>
-                    </figure>
-                    <p>Mueble</p>
-                </article>
+                <div class="best-sellers-container">
+                    <h4 class="best-sellers-tittle">Best Sellers</h4>
+                    <article class="best-sellers-product">
+                        <figure class="best-sellers-imagen-container">
+                            <img class="best-sellers-imagen" src="images/mueble8.jpg" alt="Imagen Mueble 8" width="150" />
+                        </figure>
+                        <p>Lampara</p>
+                    </article>
+                    <article class="best-sellers-product">
+                        <figure class="best-sellers-imagen-container">
+                            <img class="best-sellers-imagen" src="images/mueble9.jpg" alt="Imagen Mueble 9" width="150" />
+                        </figure>
+                        <p>Office Desk</p>
+                    </article>
+                    <article class="best-sellers-product">
+                        <figure class="best-sellers-imagen-container">
+                            <img class="best-sellers-imagen" src="images/mueble11.jpg" alt="Imagen Mueble 10" width="150"/>
+                        </figure>
+                        <p>Mueble</p>
+                    </article>
+                </div>
             </section>
         </div>
     </section>
