@@ -124,6 +124,41 @@ ul {
 }
 
 
+.featured-collection{
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+.general-featured img{
+    width: 150px;
+    height: 170px;
+}
+
+.featured-head{
+    display: flex;
+    background-color: #FF1300;
+    margin: 20px 20px 20px 0;
+    justify-content: space-between;
+}
+
+.newest-items-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+}
+
+.newest-items-collection{
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+.tittle-featured{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+
 
 
 
@@ -145,7 +180,7 @@ ul {
 }
 
 .newsletter-tittle{
-    color: red;
+    color: #FF1300;
     font-size: 18px;
     margin: 5px;
 }
