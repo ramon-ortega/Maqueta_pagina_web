@@ -88,9 +88,6 @@ ul {
     padding: 0 10px;
 }
 
-.vertical-menu{
-    border: 1px solid gray;
-}
 
 .screen{
     display: flex;
@@ -163,6 +160,37 @@ ul {
 
 
 
+/* LADO IZQUIERDO */
+
+.vertical-menu{
+    border: 1px solid gray;
+    margin: 20px 0;
+    padding: 0px;
+}
+
+.vertical-menu ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.vertical-menu ul li{
+    border: 1px solid gray;
+    margin: 3px;
+    padding-left: 20px;
+    background-color: rgba(207, 207, 207, 0.959);
+}
+
+.vertical-menu h3{
+    background-color: rgba(207, 207, 207, 0.959);
+    border: 1px solid red;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+
 
 
 
@@ -170,7 +198,7 @@ ul {
 
 .newsletter{
     border: 1px solid gray;
-    background-color: rgb(189, 189, 189);
+    background-color: rgba(207, 207, 207, 0.959);
 }
 
 .newsletter-details{
@@ -221,6 +249,9 @@ ul {
 
 
 
+
+
+/* LADO DERECHO */
 
 
 #product-guideline{
