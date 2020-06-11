@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Open+Sans+Condensed:wght@300&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>OnlineStore</title>
 </head>
 <body>
     <div id="home">
         <header>
-            <h1>ONLINE<strong>STORE</strong></h1>
-            <h4>good products, cheep prices</h4>
-            <p>Customer Servive 0845 0123 000</p>
-            <p>Our delivery rate is 64 on ALL ORDERS</p>
-            <h5>Shopping Basket</h5>
-            <p>Item(s): 2 $250</p>
+            <div class="marca">
+                <h1>ONLINE<strong>STORE</strong></h1>
+                <h4 class="slogan">good products, cheep prices</h4>
+            </div>
+            <div>
+                <form action="/search/" class="search-area">
+                    <input type="text" value="enter a keyword or an item #">
+                    <button class="search-button"></button>
+                </form>
+            </div>
+            <div class="custom-service">
+                <p>Customer Servive 0845 0123 000</p>
+                <p class="custom-service-price">Our delivery rate is $4 on ALL ORDERS</p>
+            </div>
+            <div>
+                <h5>Shopping Basket</h5>
+                <p>Item(s): 2 $250</p>
+            </div>
         </header>
     </div>
     <section>
-        <nav>
+        <nav class="horizontal-menu">
             <ul>
                 <li>
-                    <a href="#home">Home</a> 
-                </li>
-                <li>
+                    <a class="bottom-home" href="#home"><u>Home</u></a> 
+                </li>                    <li>
                     <a href="#product">Products</a>
                 </li>
                 <li>
@@ -44,60 +57,66 @@
             </ul>
             <ul>
                 <li>
-                    <a href="">Sign up</a>
+                    <a class="bottom-signup" href="">Sign up</a>
                 </li>
                 <li>
-                    <a href="">My account</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-    <nav>
-        <h3 id="product-categories">Product Categories</h3>
-            <ul>
-                <li>
-                    <a href="">Bathroom</a>
-                </li>
-                <li>
-                    <a href="">Bedroom</a>
-                </li>
-                <li>
-                    <a href="">Cooking</a>
-                </li>
-                <li>
-                    <a href="">Decoration</a>
-                </li>
-                <li>
-                    <a href="">Dining</a>
-                </li>
-                <li>
-                    <a href="">Eating</a>
-                </li>
-                <li>
-                    <a href="">Hallway</a>
+                    <a class="bottom-myaccount" href="">My account</a>
                 </li>
             </ul>
     </nav>
-    <section id="product">
-        <figure>
-            <img src="images/portada.jpg" alt="Imagen de Portada"/ width="500">
-        </figure>
-        <p>White sofa Collection</p>
     </section>
-    <section id="product-guideline">
-        <h5>Product Guidelines</h5>
-        <figure>
-            <img src="images/guidlines.jpg" alt="Imagen de Guidline" width="50">
-        </figure>
-        <p>Please consider going over our <strong><a href="">product guidelines</a></strong> before you purchase any item from our store.</p>
-    </section>
-    <section id="store-locator">
-        <h5>Store Locator</h5>
-        <figure>
-            <img src="images/mapa.png" alt="Imagen del Mapa" width="50">
-        </figure>
-        <p>Use our Store Locator to find a store near you. <br> <strong><a href="https://www.google.com.mx/maps/">click here</a></strong>
-         </p>
+    <section id="product" class="product-feature">
+        <div>
+            <nav class="vertical-menu"></nav>
+            <h3 id="product-categories">Product Categories</h3>
+                <ul>
+                    <li>
+                        <a href="">Bathroom</a>
+                    </li>
+                    <li>
+                        <a href="">Bedroom</a>
+                    </li>
+                    <li>
+                        <a href="">Cooking</a>
+                    </li>
+                    <li>
+                        <a href="">Decoration</a>
+                    </li>
+                    <li>
+                        <a href="">Dining</a>
+                    </li>
+                    <li>
+                        <a href="">Eating</a>
+                    </li>
+                    <li>
+                        <a href="">Hallway</a>
+                    </li>
+                </ul>
+        </nav>
+        </div>
+        <div>
+            <figure>
+                <img src="images/portada.jpg" alt="Imagen de Portada"/ width="500">
+            </figure>
+            <p>White sofa Collection</p>
+        </div>
+        <div>
+            <section id="product-guideline">
+                <h5>Product Guidelines</h5>
+                <figure>
+                    <img src="images/guidlines.jpg" alt="Imagen de Guidline" width="50">
+                </figure>
+                <p>Please consider going over our <strong><a href="">product guidelines</a></strong> before you purchase any item from our store.</p>
+            </section>
+            <section id="store-locator">
+                <h5>Store Locator</h5>
+                <figure>
+                    <img src="images/mapa.png" alt="Imagen del Mapa" width="50">
+                </figure>
+                <p>Use our Store Locator to find a store near you. <br> <strong><a href="https://www.google.com.mx/maps/">click here</a></strong>
+                 </p>
+            </section>
+        </div>
     </section>
     <section id="features">
         <h4>Featured Collections</h4>
